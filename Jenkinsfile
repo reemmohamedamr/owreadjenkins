@@ -12,5 +12,5 @@ pipeline {
     }
   }
 }
-//this is a c omment added to test
+//remove the comment
 
