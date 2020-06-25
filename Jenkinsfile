@@ -16,7 +16,7 @@ pipeline {
         CI = 'true'
       }
       steps {
-        sh 'test'
+        sh 'test.sh'
       }
     }
 
