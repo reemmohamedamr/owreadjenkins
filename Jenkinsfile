@@ -12,5 +12,4 @@ pipeline {
     }
   }
 }
-//remove the comment
 
