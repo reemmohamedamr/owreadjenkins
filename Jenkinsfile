@@ -10,5 +10,15 @@ pipeline {
                “‘
       }
     }
+
+    stage('Test') {
+      environment {
+        CI = 'true'
+      }
+      steps {
+        sh './test.sh'
+      }
+    }
+
   }
 }
